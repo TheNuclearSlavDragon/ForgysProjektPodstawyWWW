@@ -1,0 +1,69 @@
+@font-face {
+    font-family: "mechanicusFont";
+    src: url("../fonts/OldLondon.ttf");    
+}
+
+.navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #9a1115;
+    display: flex;
+    justify-content: space-around;
+    font-family: "mechanicusFont", sans-serif;
+    color: rgb(0, 186, 0);
+}
+
+h1 {
+    margin: 10px 30px;
+    font-size: 40pt;
+}
+
+.login {
+    padding: 20px;
+}
+
+.login > ul {
+    display: flex;
+    list-style: none;
+}
+
+.login > ul li {
+    margin: 0 20px;
+    font-size: 30px;
+    color: rgb(0, 186, 0);
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #840e12;
+    color: rgb(0, 186, 0);
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav > li {
+    display: flex;
+    list-style: none;
+}
+
+nav > ul li {
+    margin: 0 20px;
+    font-size: 15pt;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

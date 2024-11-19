@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dokumentacja Aplikacji - Galeria Sztuki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            max-width: 800px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .diagram {
+            text-align: center;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dokumentacja Strony - Galeria Forgys</h1>
+
+    <!-- Tytuł -->
+    <div class="section">
+        <h2>1. Tytuł</h2>
+        <p>Galeria Forgys - Aplikacja do zarządzania artami i ich ulubionymi.</p>
+    </div>
+
+    <!-- Imię i nazwisko autora -->
+    <div class="section">
+        <h2>2. Autorzy</h2>
+        <p>Imię i nazwisko autorów: Grzegorz Laskowski, Piotr Wasilewski</p>
+    </div>
+
+    <!-- Wprowadzenie -->
+    <div class="section">
+        <h2>3. Wprowadzenie</h2>
+        <p>
+            Celem aplikacji jest stworzenie platformy do publikacji, przeglądania i zarządzania artami graficznymi.
+            Użytkownicy mogą dodawać swoje dzieła, przeglądać prace innych, a także
+            dodawać wybrane art do ulubionych.
+        </p>
+    </div>
+
+    <!-- Podział prac -->   
+    <div class="section">
+        <h2>4. Podział prac</h2>
+        <p>
+            Prace zostały podzielone według następujących ról:
+            <ul>
+                <li>Piotr Wasilewski: Backend, struktura bazy danych, formularz logowania, AJAX</li>
+                <li>Grzegorz Laskowski: Frontend, stylowanie interfejsu, obsługa formularzy, PHP</li>
+            </ul>
+        </p>
+    </div>
+
+    <!-- Link do repozytorium -->
+    <div class="section">
+        <h2>5. Link do repozytorium GitHub</h2>
+        <p>
+            Kod źródłowy aplikacji dostępny jest na GitHub: 
+            <a href="https://github.com/TheNuclearSlavDragon/Forgys" target="_blank">https://github.com/TheNuclearSlavDragon/Forgys</a>
+        </p>
+    </div>
+
+    <!-- Spis funkcjonalności -->
+    <div class="section">
+        <h2>6. Szczegółowy spis funkcjonalności</h2>
+        <ul>
+            <li>Dodawanie artów z tytułem, opisem oraz obrazem.</li>
+            <li>Wyświetlanie listy artów</li>
+            <li>Dodawanie artów do ulubionych i zarządzanie ulubionymi obrazami za pomocą AJAX.</li>
+            <li>Rejestracja i logowanie użytkowników.</li>
+        </ul>
+    </div>
+
+    <!-- Zrzuty ekranu -->
+    <div class="section">
+        <h2>7. Zrzuty ekranu i opisy</h2>
+        <h3>Ekran główny</h3>
+        <img src="./images/index.png" alt="Ekran główny">
+        <p>Ekran główny aplikacji, gdzie użytkownik widzi listę dostępnych artów.</p>
+
+        <h3>Dodawanie artów</h3>
+        <img src="./images/dodawanie.png" alt="Dodawanie artów">
+        <p>Formularz do dodawania nowych artów.</p>
+
+        <h3>Twoje arty</h3>
+        <img src="./images/twojearty.png" alt="Ulubione">
+        <p>Lista dodanych przez siebie artów</p>
+    </div>
+
+    <!-- Diagram tabel -->
+    <div class="section">
+        <h2>8. Diagram tabel</h2>
+        <div class="diagram">
+            <img src="./images/database.png" alt="Diagram tabel bazy danych">
+            <p>Diagram przedstawiający strukturę bazy danych, w tym relacje między tabelami
+               `users`, `arts`, `roles`, oraz `likes`.</p>
+        </div>
+    </div>
+</body>
+</html>

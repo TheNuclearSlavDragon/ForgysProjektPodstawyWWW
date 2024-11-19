@@ -1,0 +1,61 @@
+.container {
+    width: calc(100% - 40px);
+    height: 300px;
+    margin: 20px;
+}
+
+.details {
+    background-color: rgba(128, 128, 128, 0.8);
+    border: 2px solid black;
+    justify-content: space-between;
+    height: auto;
+}
+
+.obraz {
+    margin: 0 auto;
+    width: auto;
+    text-align: center;
+}
+
+.obraz img {
+    max-width: 1000px;
+}
+
+.tytul {
+    font-size: 80px;
+    text-align: center;
+}
+
+.opis {
+    font-size: 30px;
+    height: auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.opcje {
+    display: flex;
+    justify-content: center;
+}
+
+.opcje a, .opcje button{
+    margin: 20px;
+    width: auto;
+    font-size: 20pt;
+    padding: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.komentarze {
+    width: 80%;
+    margin: 10px auto;
+}
+
+.minikomentarz {
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20pt;
+}

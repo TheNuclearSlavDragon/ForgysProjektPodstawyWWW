@@ -1,0 +1,36 @@
+.container {
+    width: calc(100% - 50px);
+    margin: 20px auto;
+}
+
+.artgallery {
+    box-sizing: border-box;
+    background-color: rgba(128, 128, 128, 0.8);
+    border: 2px solid black;
+    height: auto;
+    max-height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+h2{
+    background: grey;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+.smallimage {
+    height: 250px;
+    margin: 10px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.smallimage img {
+    height: 200px;
+    justify-self: center;
+    margin: 2px;
+}

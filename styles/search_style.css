@@ -1,0 +1,19 @@
+.container {
+    width: calc(100% - 40px);
+    background-color: rgba(128, 128, 128, 0.8);
+    margin: 20px;
+}
+
+.arts {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+.arts a {
+    margin: 40px;
+}
+
+.arts a ul {
+    list-style: none;
+}
